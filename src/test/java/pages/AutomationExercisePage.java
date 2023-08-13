@@ -60,4 +60,7 @@ public class AutomationExercisePage {
     public WebElement correctPasswordBox;
     @FindBy (xpath ="//button[@type='submit']")
     public WebElement loginButton;
+
+    @FindBy (xpath ="//*[@id=\"form\"]/div/div/div[1]/div/form/p")
+    public WebElement incorrectEmailorPasswordMessage;
 }

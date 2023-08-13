@@ -50,4 +50,14 @@ public class AutomationExercisePage {
     @FindBy (xpath = "//*[@id=\"form\"]/div/div/div/h2/b")
     public WebElement accountDeletedMessage;
 
+    @FindBy (xpath = "//h2[text()='Login to your account']")
+    public WebElement loginToYourAccountText;
+
+    @FindBy (xpath = "(//input[@placeholder='Email Address'])[1]")
+    public WebElement correctEmailBox;
+
+    @FindBy (xpath = "//input[@placeholder='Password']")
+    public WebElement correctPasswordBox;
+    @FindBy (xpath ="//button[@type='submit']")
+    public WebElement loginButton;
 }

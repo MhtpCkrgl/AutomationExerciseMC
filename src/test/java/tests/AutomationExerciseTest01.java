@@ -103,13 +103,15 @@ public class AutomationExerciseTest01 {
 
         // Click 'Continue' button
         page.continueButton.click();
-
+/*
         // Close popup
         Driver.getDriver().switchTo().frame(0);
         ReusableMethods.bekle(3);
         page.closeButton.click();
         Driver.getDriver().switchTo().defaultContent();
 
+
+ */
         // Verify that 'Logged in as username' is visible
         Assert.assertTrue(page.loggedInAsUsername.isDisplayed());
 
